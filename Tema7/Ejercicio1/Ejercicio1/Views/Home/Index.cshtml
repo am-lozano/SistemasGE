@@ -1,0 +1,27 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+
+@model Ejercicio1.Models.Entities.Persona
+
+@{
+    ViewBag.Title = "Página Principal";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <h3>@ViewData["Saludo"]</h3>
+    <p>Fecha Actual: @ViewBag.FechaActual</p>
+
+    <h4>Datos de la Persona:</h4>
+    <ul>
+        <li>Nombre: @Model.nombre</li>
+    </ul>
+</div>
+
