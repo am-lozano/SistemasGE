@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema7\\ejercicio4\\ejercicio4\\models\\dal\\clsdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|solutionrelative:ejercicio4\\models\\dal\\clsdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema7\\ejercicio4\\ejercicio4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|solutionrelative:ejercicio4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema7\\ejercicio4\\ejercicio4\\views\\home\\editarpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|solutionrelative:ejercicio4\\views\\home\\editarpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema7\\ejercicio4\\ejercicio4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|solutionrelative:ejercicio4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema7\\ejercicio4\\ejercicio4\\models\\dal\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EB8B4C-08B6-4995-9874-D1212EFF2D59}|Ejercicio4\\Ejercicio4.csproj|solutionrelative:ejercicio4\\models\\dal\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 356,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +38,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditarPersona.cshtml",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Views\\Home\\EditarPersona.cshtml",
+              "RelativeDocumentMoniker": "Ejercicio4\\Views\\Home\\EditarPersona.cshtml",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Views\\Home\\EditarPersona.cshtml",
+              "RelativeToolTip": "Ejercicio4\\Views\\Home\\EditarPersona.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T12:12:26.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsPersona.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Models\\DAL\\clsPersona.cs",
+              "RelativeDocumentMoniker": "Ejercicio4\\Models\\DAL\\clsPersona.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Models\\DAL\\clsPersona.cs",
+              "RelativeToolTip": "Ejercicio4\\Models\\DAL\\clsPersona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:11:27.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsDepartamento.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Models\\DAL\\clsDepartamento.cs",
+              "RelativeDocumentMoniker": "Ejercicio4\\Models\\DAL\\clsDepartamento.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Models\\DAL\\clsDepartamento.cs",
+              "RelativeToolTip": "Ejercicio4\\Models\\DAL\\clsDepartamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:10:29.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ejercicio4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Ejercicio4\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T12:02:04.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Ejercicio4\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema7\\Ejercicio4\\Ejercicio4\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Ejercicio4\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwFIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T12:36:18.033Z",
               "EditorCaption": ""
