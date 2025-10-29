@@ -1,7 +1,15 @@
+using Domain.Interfaces;
+using Domain.Repositories;
+using Domain.UseCase;
+using Data.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IGetListaPersonas, RepoVacio>();
+builder.Services.AddScoped<IGetListaPersonasUseCase, DefaultGetListaPersonasUseCase>();
 
 var app = builder.Build();
 
