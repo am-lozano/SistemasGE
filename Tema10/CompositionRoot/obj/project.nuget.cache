@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WIhV/Y2LpDk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\CompositionRoot\\CompositionRoot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\am.lozano\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.0\\microsoft.extensions.configuration.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\am.lozano\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.0\\microsoft.extensions.primitives.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
