@@ -1,8 +1,8 @@
-using System.Diagnostics;
-using ListadoPersonasClean.Models;
+﻿using ListadoPersonasClean.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
-namespace ListadoPersonasClean.Controllers
+namespace UI.Controllers
 {
     public class HomeController : Controller
     {

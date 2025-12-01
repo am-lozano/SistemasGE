@@ -1,4 +1,10 @@
-﻿namespace Domain.Entities
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.Entities
 {
     public class Persona
     {
@@ -10,6 +16,7 @@
         private string _direccion;
         private string _telefono;
         private string _foto;
+        private int _idDepartamento;
         #endregion
 
         #region Getters y Setters
@@ -48,12 +55,18 @@
             get { return _telefono; }
             set { _telefono = value; }
         }
-
         public string Foto
         {
             get { return _foto; }
             set { _foto = value; }
         }
+
+        public int IdDepartamento
+        {
+            get { return _idDepartamento; }
+            set { _idDepartamento = value; }
+        }
+
         #endregion
 
         #region Constructores
@@ -61,7 +74,7 @@
         public Persona() { }
 
         // Constructor con parámetros
-        public Persona(int id, string nombre, string apellidos, DateTime fechaNac, string direccion, string telefono, string foto)
+        public Persona(int id, string nombre, string apellidos, DateTime fechaNac, string direccion, string telefono, string foto, int idDepartamento)
         {
             _id = id;
             _nombre = nombre;
@@ -70,6 +83,7 @@
             _direccion = direccion;
             _telefono = telefono;
             _foto = foto;
+            _idDepartamento = idDepartamento;
         }
         #endregion
     }

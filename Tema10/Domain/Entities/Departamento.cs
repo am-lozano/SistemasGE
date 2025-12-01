@@ -1,40 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Domain.Entities
 {
-    internal class Departamento
+    public class Departamento
     {
-
-        #region Atributos privados
-        private int _id;
-        private string _nombre;
+        #region atributos privados
+        private int _idDepartamento;
+        private string _nombreDepartamento;
         #endregion
 
-        public int Id
+        #region getters y setters
+        public int IdDepartamento
         {
-            get { return _id; }
+            get { return _idDepartamento; }
+            set { _idDepartamento = value; }
         }
 
-        #region Getter y Setter
-        public string Mnombre
+        public string? NombreDepartamento
         {
-            get { return _nombre; }
-            set { _nombre = value; }
-        }
-        #endregion
-
-        #region constructor
-        public Departamento(int id, string nombre)
-        {
-            _id = id;
-            _nombre = nombre;
+            get { return _nombreDepartamento; }
+            set { _nombreDepartamento = value; }
         }
         #endregion
 
+        #region constructores
+        public Departamento() { }
+
+        public Departamento(int idDepartamento, string nombreDepartamento)
+        {
+            _idDepartamento = idDepartamento;
+            _nombreDepartamento = nombreDepartamento;
+        }
+        #endregion
     }
 }
