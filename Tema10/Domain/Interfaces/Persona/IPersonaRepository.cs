@@ -17,5 +17,6 @@ namespace Domain.Interfaces
         int AddPersona(Persona persona);
         int UpdatePersona(int id, Persona persona);
         int DeletePersona(int id);
+        List<Persona> getPersonas();
     }
 }

@@ -21,7 +21,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=12345;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             // Creamos el lector
             SqlDataReader miLector;
@@ -86,7 +86,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             // Creamos el lector
             SqlDataReader miLector;
@@ -150,7 +150,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -187,7 +187,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=12345;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -225,7 +225,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {

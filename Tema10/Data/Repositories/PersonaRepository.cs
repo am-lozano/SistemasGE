@@ -24,7 +24,7 @@ namespace Data.Repositories
             SqlDataReader miLector;
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=12345;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
             // Creamos una lista de personas vacía
             List<Persona> listaPersonas = new List<Persona>();
 
@@ -51,10 +51,10 @@ namespace Data.Repositories
                         // Creamos una persona
                         Persona persona = new Persona();
                         // Asignamos los valores a la persona
-                        persona.IdDepartamento = (int)miLector["ID"];
+                        persona.Id = (int)miLector["ID"];
                         persona.Nombre = (string)miLector["Nombre"];
                         persona.Apellidos = (string)miLector["Apellidos"];
-                        persona.FechaNac = (DateTime)miLector["FechaNac"];
+                        persona.FechaNac = (DateTime)miLector["FechaNacimiento"];
                         persona.Direccion = (string)miLector["Direccion"];
                         persona.Telefono = (string)miLector["Telefono"];
                         persona.Foto = (string)miLector["Foto"];
@@ -93,7 +93,7 @@ namespace Data.Repositories
             SqlDataReader miLector;
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             // Creamos un objeto persona
             Persona persona = new Persona();
@@ -119,10 +119,10 @@ namespace Data.Repositories
                     while (miLector.Read())
                     {
                         // Asignamos los valores a la persona
-                        persona.IdDepartamento = (int)miLector["ID"];
+                        persona.Id = (int)miLector["ID"];
                         persona.Nombre = (string)miLector["Nombre"];
                         persona.Apellidos = (string)miLector["Apellidos"];
-                        persona.FechaNac = (DateTime)miLector["FechaNac"];
+                        persona.FechaNac = (DateTime)miLector["FechaNacimiento"];
                         persona.Direccion = (string)miLector["Direccion"];
                         persona.Telefono = (string)miLector["Telefono"];
                         persona.Foto = (string)miLector["Foto"];
@@ -155,7 +155,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -166,7 +166,7 @@ namespace Data.Repositories
                 miComando.Connection = miConexion;
 
                 // Creamos la consulta Sql
-                miComando.CommandText = "INSERT INTO Personas (Nombre, Apellidos, FechaNac, Direccion, Telefono, Foto, IdDepartamento)" +
+                miComando.CommandText = "INSERT INTO Personas (Nombre, Apellidos, FechaNacimiento, Direccion, Telefono, Foto, IDDepartamento)" +
                                         "VALUES (@nombre, @apellidos, @fechaNac, @direccion, @telefono, @foto, @idDepartamento)";
 
                 // Asignamos los valores de la persona a los parámetros
@@ -199,7 +199,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -210,8 +210,8 @@ namespace Data.Repositories
                 miComando.Connection = miConexion;
 
                 // Creamos la consulta Sql
-                miComando.CommandText = "UPDATE Personas SET Nombre = @nombre, Apellidos = apellidos, FechaNac = @fechaNac, Direccion = @direccion, " +
-                                        "Telefono = @telefono, Foto = @foto, IdDepartamento = @idDepartamento WHERE ID = @id";
+                miComando.CommandText = "UPDATE Personas SET Nombre = @nombre, Apellidos = apellidos, FechaNacimiento = @fechaNac, Direccion = @direccion, " +
+                                        "Telefono = @telefono, Foto = @foto, IDDepartamento = @idDepartamento WHERE ID = @id";
 
                 // Asignamos los valores de la persona a los parámetros
                 miComando.Parameters.AddWithValue("@nombre", persona.Nombre);
@@ -243,7 +243,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {

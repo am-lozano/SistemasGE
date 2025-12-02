@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace CompositionRoot
 {
-    public static class InversifyConf
+    public static class InversifyConfig
     {
         public static IServiceCollection AddCompositionRoot(this IServiceCollection services, IConfiguration configuration)
         {

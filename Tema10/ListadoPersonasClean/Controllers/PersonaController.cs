@@ -14,6 +14,7 @@ namespace UI.Controllers
 
         public IActionResult Index()
         {
+
             return View(_personaUseCases.getPersonas());
         }
 
