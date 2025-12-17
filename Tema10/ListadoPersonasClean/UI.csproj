@@ -7,32 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Departamento\Create.cshtml" />
-    <Content Remove="Views\Departamento\Delete.cshtml" />
-    <Content Remove="Views\Departamento\Details.cshtml" />
-    <Content Remove="Views\Departamento\Edit.cshtml" />
-    <Content Remove="Views\Departamento\Index.cshtml" />
-    <Content Remove="Views\Persona\Create.cshtml" />
-    <Content Remove="Views\Persona\Delete.cshtml" />
-    <Content Remove="Views\Persona\Details.cshtml" />
-    <Content Remove="Views\Persona\Edit.cshtml" />
-    <Content Remove="Views\Persona\Index.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Views\Departamento\Create.cshtml" />
-    <None Include="Views\Departamento\Delete.cshtml" />
-    <None Include="Views\Departamento\Details.cshtml" />
-    <None Include="Views\Departamento\Edit.cshtml" />
-    <None Include="Views\Departamento\Index.cshtml" />
-    <None Include="Views\Persona\Create.cshtml" />
-    <None Include="Views\Persona\Delete.cshtml" />
-    <None Include="Views\Persona\Details.cshtml" />
-    <None Include="Views\Persona\Edit.cshtml" />
-    <None Include="Views\Persona\Index.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CompositionRoot\CompositionRoot.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>

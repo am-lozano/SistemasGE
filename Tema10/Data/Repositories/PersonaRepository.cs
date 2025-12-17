@@ -1,4 +1,10 @@
-﻿using Domain.Interfaces;
+﻿using Domain.DTOs;
+using Domain.Entities;
+using Domain.Interfaces;
+using Microsoft.Data.SqlClient;
+
+
+using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -108,6 +114,7 @@ namespace Data.Repositories
 
                 // Creamos la consulta Sql
                 miComando.CommandText = "SELECT * FROM Personas WHERE ID = @id";
+                miComando.Parameters.AddWithValue("@id", id);
 
                 // Ejecutamos la consulta
                 miLector = miComando.ExecuteReader();
@@ -210,7 +217,7 @@ namespace Data.Repositories
                 miComando.Connection = miConexion;
 
                 // Creamos la consulta Sql
-                miComando.CommandText = "UPDATE Personas SET Nombre = @nombre, Apellidos = apellidos, FechaNacimiento = @fechaNac, Direccion = @direccion, " +
+                miComando.CommandText = "UPDATE Personas SET Nombre = @nombre, Apellidos = @apellidos, FechaNacimiento = @fechaNac, Direccion = @direccion, " +
                                         "Telefono = @telefono, Foto = @foto, IDDepartamento = @idDepartamento WHERE ID = @id";
 
                 // Asignamos los valores de la persona a los parámetros
@@ -221,6 +228,7 @@ namespace Data.Repositories
                 miComando.Parameters.AddWithValue("@telefono", persona.Telefono);
                 miComando.Parameters.AddWithValue("@foto", persona.Foto);
                 miComando.Parameters.AddWithValue("@idDepartamento", persona.IdDepartamento);
+                miComando.Parameters.AddWithValue("@id", id);
 
                 // Ejecutamos la consulta y obtenemos el número de filas afectadas
                 return miComando.ExecuteNonQuery();
@@ -255,6 +263,7 @@ namespace Data.Repositories
 
                 // Creamos la consulta Sql
                 miComando.CommandText = "DELETE FROM Personas WHERE ID = @id";
+                miComando.Parameters.AddWithValue("@id", id);
 
                 // Ejecutamos la consulta y obtenemos el número de filas afectadas
                 return miComando.ExecuteNonQuery();
@@ -269,37 +278,42 @@ namespace Data.Repositories
 
         }
 
+        // --- Wrappers para cumplir la interfaz (mapeo a los métodos existentes) ---
+
+        public Persona GetPersona(int id)
+        {
+            return getPersona(id);
+        }
+
+        public int AddPersona(Persona persona)
+        {
+            return addPersona(persona);
+        }
+
+        public int UpdatePersona(int id, Persona persona)
+        {
+            return updatePersona(id, persona);
+        }
+
+        public int DeletePersona(int id)
+        {
+            return deletePersona(id);
+        }
+
+        public List<PersonaWithNombreDepartamentoDTO> GetPersonas()
+        {
+            // Mapear a DTO con nombreDepartamento vacío; el UseCase rellena/usa DepartamentoRepository para obtener el nombre real.
+            var personas = getPersonas();
+            return personas.Select(p => new PersonaWithNombreDepartamentoDTO(p, string.Empty)).ToList();
+        }
+
+        // Mantener sin implementar si no se usan en tu flujo actual
         public List<Departamento> GetDepartamentos()
         {
             throw new NotImplementedException();
         }
 
-        public Persona GetPersona(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<PersonaWithNombreDepartamentoDTO> GetPersonas()
-        {
-            throw new NotImplementedException();
-        }
-
         public PersonaWithListadoDepartamentoDTO GetPersonaWithListadoDepartamento(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int AddPersona(Persona persona)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int UpdatePersona(int id, Persona persona)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int DeletePersona(int id)
         {
             throw new NotImplementedException();
         }

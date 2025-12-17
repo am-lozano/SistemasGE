@@ -1,0 +1,25 @@
+﻿@model ListadoCategoriasWithListadoPlantasListadoCategoriasWithListadoPlantasPorCategoria
+<form method="post">
+    <select name="idCategoria">
+        @foreach (var c in Model.categorias)
+        {
+            <option value="@c.id">@c.nombre</option>
+        }
+    </select>
+    <button type="submit">Mostrar</button>
+</form>
+
+
+@if (Model.plantas.Any())
+{
+    <table>
+        <tr><th>Nombre</th><th></th></tr>
+        @foreach (var p in Model.plantas)
+        {
+            <tr>
+                <td>@p.nombre</td>
+                <td><a asp-action="Edit" asp-route-id="@p.id">Asignar precio</a></td>
+            </tr>
+        }
+    </table>
+}
