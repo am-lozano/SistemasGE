@@ -4,77 +4,83 @@
     ViewData["Title"] = "Listado de Personas";
 }
 
-<div class="card shadow-sm mb-4">
-    <div class="card-body">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="h5 mb-0">Personas</h2>
-            <div class="d-flex gap-2">
-                <input id="searchBox" class="form-control form-control-sm" placeholder="Buscar por nombre..." style="min-width:220px" />
-                <a class="btn btn-sm btn-primary" asp-action="Create">Nueva Persona</a>
-            </div>
-        </div>
+<h1 class="mb-4 text-primary">@ViewData["Title"]</h1>
 
-        <div class="table-responsive">
-            <table class="table table-hover align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th style="width:6%">Id</th>
-                        <th>Nombre</th>
-                        <th>Apellidos</th>
-                        <th>Fecha Nac.</th>
-                        <th>Dirección</th>
-                        <th>Teléfono</th>
-                        <th>Departamento</th>
-                        <th style="width:14%">Acciones</th>
-                    </tr>
-                </thead>
-                <tbody id="personasTableBody">
-                    @if (Model != null && Model.Any())
-                    {
-                        foreach (var dto in Model)
-                        {
-                            <tr>
-                                <td>@dto.persona.Id</td>
-                                <td>@dto.persona.Nombre</td>
-                                <td>@dto.persona.Apellidos</td>
-                                <td>@dto.persona.FechaNac.ToString("dd/MM/yyyy")</td>
-                                <td>@dto.persona.Direccion</td>
-                                <td>@dto.persona.Telefono</td>
-                                <td><span class="badge bg-success">@dto.nombreDepartamento</span></td>
-                                <td class="table-actions">
-                                    <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@dto.persona.Id">Editar</a>
-                                    <a class="btn btn-sm btn-outline-info" asp-action="Details" asp-route-id="@dto.persona.Id">Detalles</a>
-                                    <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@dto.persona.Id">Eliminar</a>
-                                </td>
-                            </tr>
-                        }
-                    }
-                    else
-                    {
-                        <tr>
-                            <td colspan="8" class="text-center text-muted py-4">No hay personas para mostrar.</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-    </div>
+<!-- Botón crear -->
+<div class="d-flex justify-content-end mb-3">
+    <a asp-action="Create" class="btn btn-success">
+        <i class="bi bi-person-plus"></i> Crear Nueva Persona
+    </a>
 </div>
 
-@section Scripts {
-    <script>
-        // Búsqueda simple (cliente) — mejora UX sin tocar servidor
-        (function () {
-            const box = document.getElementById('searchBox');
-            const tbody = document.getElementById('personasTableBody');
-            box.addEventListener('input', function () {
-                const q = box.value.trim().toLowerCase();
-                if (!tbody) return;
-                for (const row of tbody.querySelectorAll('tr')) {
-                    const text = row.innerText.toLowerCase();
-                    row.style.display = q === '' || text.includes(q) ? '' : 'none';
-                }
-            });
-        })();
-    </script>
-}
+<div class="table-responsive">
+    <table class="table table-hover table-bordered align-middle shadow-sm">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Fecha Nac.</th>
+                <th>Dirección</th>
+                <th>Teléfono</th>
+                <th>Foto</th>
+                <th>Departamento</th>
+                <th style="width: 180px;">Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var personaDTO in Model)
+            {
+                <tr class="text-center">
+                    <td>@personaDTO.persona.Nombre</td>
+                    <td>@personaDTO.persona.Apellidos</td>
+                    <td>
+                        @personaDTO.persona.FechaNac.ToString("dd/MM/yyyy")
+                    </td>
+                    <td>@personaDTO.persona.Direccion</td>
+                    <td>@personaDTO.persona.Telefono</td>
+
+                    <td>
+                        @if (!string.IsNullOrEmpty(personaDTO.persona.Foto))
+                        {
+                            <img src="@personaDTO.persona.Foto"
+                                 class="img-thumbnail"
+                                 style="width: 80px; height: 80px; object-fit: cover;"
+                                 alt="Foto" />
+                        }
+                        else
+                        {
+                            <span class="text-muted fst-italic">No disponible</span>
+                        }
+                    </td>
+
+                    <td>
+                        <span class="badge bg-info text-dark">
+                            @personaDTO.nombreDepartamento
+                        </span>
+                    </td>
+
+                    <td>
+                        <div class="btn-group btn-group-sm" role="group">
+                            <a asp-action="Edit"
+                               asp-route-id="@personaDTO.persona.Id"
+                               class="btn btn-warning">
+                                Editar
+                            </a>
+                            <a asp-action="Details"
+                               asp-route-id="@personaDTO.persona.Id"
+                               class="btn btn-primary">
+                                Detalles
+                            </a>
+                            <a asp-action="Delete"
+                               asp-route-id="@personaDTO.persona.Id"
+                               class="btn btn-danger">
+                                Eliminar
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

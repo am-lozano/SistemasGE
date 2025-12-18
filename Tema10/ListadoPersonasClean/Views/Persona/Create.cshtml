@@ -1,35 +1,82 @@
-﻿@model Domain.DTOs.PersonaWithNombreDepartamentoDTO
-
+﻿@model Domain.DTOs.PersonaWithListadoDepartamentoDTO
+@* 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear Persona";
 }
 
-<h1>Create</h1>
+<h1 class="mb-4 text-primary">@ViewData["Title"]</h1> *@
 
-<h4>Crear persona</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="nombreDepartamento" class="control-label"></label>
-                <input asp-for="nombreDepartamento" class="form-control" />
-                <span asp-validation-for="nombreDepartamento" class="text-danger"></span>
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Datos de la Persona</h5>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <!-- Nombre -->
+                    <div class="mb-3">
+                        <label class="form-label">Nombre</label>
+                        <input asp-for=persona.Nombre name="nombre" class="form-control" placeholder="Ingrese el nombre" />
+                    </div>
+
+                    <!-- Apellidos -->
+                    <div class="mb-3">
+                        <label class="form-label">Apellidos</label>
+                        <input asp-for=persona.Apellidos name="apellidos" class="form-control" placeholder="Ingrese los apellidos" />
+                    </div>
+
+                    <!-- Teléfono -->
+                    <div class="mb-3">
+                        <label class="form-label">Teléfono</label>
+                        <input asp-for=persona.Telefono name="telefono" class="form-control" placeholder="Ej: 999-999-999" />
+                    </div>
+
+                    <!-- Dirección -->
+                    <div class="mb-3">
+                        <label class="form-label">Dirección</label>
+                        <input asp-for=persona.Direccion name="direccion" class="form-control" placeholder="Dirección completa" />
+                    </div>
+
+                    <!-- Foto -->
+                    <div class="mb-3">
+                        <label class="form-label">Foto (URL)</label>
+                        <input asp-for=persona.Foto name="foto" class="form-control" placeholder="https://..." />
+                    </div>
+
+                    <!-- Fecha de nacimiento -->
+                    <div class="mb-3">
+                        <label class="form-label">Fecha de Nacimiento</label>
+                        <input asp-for=persona.FechaNac type="date" class="form-control" name="FechaNac" />
+                    </div>
+
+                    <!-- Departamento -->
+                    <div class="mb-4">
+                        <label class="form-label">Departamento</label>
+                        <select asp-for="persona.IdDepartamento"
+                                class="form-select"
+                                asp-items="@(new SelectList(Model.departamentos, "Id", "Nombre", Model.persona?.IdDepartamento))">
+                            <option value="">-- Seleccione un departamento --</option>
+                        </select>
+                    </div>
+
+                    <!-- Botones -->
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Index" class="btn btn-secondary">
+                            Volver
+                        </a>
+
+                        <button type="submit" class="btn btn-success">
+                            Crear Persona
+                        </button>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
+
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

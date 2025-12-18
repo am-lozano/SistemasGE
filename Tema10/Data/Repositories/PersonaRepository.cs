@@ -1,10 +1,4 @@
-﻿using Domain.DTOs;
-using Domain.Entities;
-using Domain.Interfaces;
-using Microsoft.Data.SqlClient;
-
-
-using Domain.Interfaces;
+﻿using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +12,10 @@ namespace Data.Repositories
 {
     public class PersonaRepository : IPersonaRepository
     {
+        /// <summary>
+        /// Obtiene la lista de todas las personas de la base de datos.
+        /// </summary>
+        /// <returns>Lista de personas.</returns>
         public List<Persona> getPersonas()
         {
             // Creamos la conexión
@@ -30,7 +28,8 @@ namespace Data.Repositories
             SqlDataReader miLector;
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
+
             // Creamos una lista de personas vacía
             List<Persona> listaPersonas = new List<Persona>();
 
@@ -64,7 +63,17 @@ namespace Data.Repositories
                         persona.Direccion = (string)miLector["Direccion"];
                         persona.Telefono = (string)miLector["Telefono"];
                         persona.Foto = (string)miLector["Foto"];
-                        persona.IdDepartamento = (int)miLector["IDDepartamento"];
+
+                        // Verificamos si el valor de IDDepartamento es DBNull antes de asignarlo
+                        if (miLector["IDDepartamento"] != DBNull.Value)
+                        {
+                            persona.IdDepartamento = (int)miLector["IDDepartamento"];
+                        }
+                        else
+                        {
+                            persona.IdDepartamento = 0; // O asigna un valor predeterminado si es NULL
+                        }
+
                         // Añadimos la persona a la lista
                         listaPersonas.Add(persona);
                     }
@@ -73,20 +82,22 @@ namespace Data.Repositories
                 // Cerramos el lector y la conexión
                 miLector.Close();
                 miConexion.Close();
-
-            }   // Capturamos y lanzamos la excepcion
-
+            }
             catch (SqlException exSql)
             {
                 Console.WriteLine(exSql.Message);
                 throw;
-
             }
 
             // Devolvemos la lista de personas
             return listaPersonas;
         }
 
+        /// <summary>
+        /// Obtiene una persona por su ID.
+        /// </summary>
+        /// <param name="id">ID de la persona a obtener.</param>
+        /// <returns>La persona con el ID especificado.</returns>
         public Persona getPersona(int id)
         {
             // Creamos la conexión
@@ -99,7 +110,7 @@ namespace Data.Repositories
             SqlDataReader miLector;
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             // Creamos un objeto persona
             Persona persona = new Persona();
@@ -114,6 +125,8 @@ namespace Data.Repositories
 
                 // Creamos la consulta Sql
                 miComando.CommandText = "SELECT * FROM Personas WHERE ID = @id";
+
+                // Asignamos el parámetro @id al valor que nos llega en el método
                 miComando.Parameters.AddWithValue("@id", id);
 
                 // Ejecutamos la consulta
@@ -140,63 +153,69 @@ namespace Data.Repositories
                 // Cerramos el lector y la conexión
                 miLector.Close();
                 miConexion.Close();
-
-            } // Capturamos y lanzamos la excepcion
+            }
             catch (SqlException exSql)
             {
                 Console.WriteLine(exSql.Message);
                 throw;
-
             }
 
             // Devolvemos la persona
             return persona;
         }
 
+        /// <summary>
+        /// Añade una nueva persona a la base de datos.
+        /// </summary>
+        /// <param name="persona">Objeto Persona con los datos a insertar.</param>
+        /// <returns>El número de filas afectadas por la inserción.</returns>
         public int addPersona(Persona persona)
         {
-            // Creamos la conexión
+            // Creamos una conexion sql
             SqlConnection miConexion = new SqlConnection();
 
-            // Creamos el comando
+            // Creamos un comando para nuestra conexion
             SqlCommand miComando = new SqlCommand();
 
-            // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            // Inicializamos la conexion
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
-                // Abrimos la conexión
+                // Abrimos la conexion
                 miConexion.Open();
 
-                // Asignamos el comando a la conexión
+                // Asignamos el comando a la conexion
                 miComando.Connection = miConexion;
 
                 // Creamos la consulta Sql
-                miComando.CommandText = "INSERT INTO Personas (Nombre, Apellidos, FechaNacimiento, Direccion, Telefono, Foto, IDDepartamento)" +
-                                        "VALUES (@nombre, @apellidos, @fechaNac, @direccion, @telefono, @foto, @idDepartamento)";
+                miComando.CommandText = "INSERT INTO Personas (Nombre, Apellidos, Telefono, Direccion, Foto, FechaNacimiento, IDDepartamento) VALUES (@Nombre, @Apellidos, @Telefono, @Direccion, @Foto, @FechaNacimiento, @IDDepartamento)";
 
-                // Asignamos los valores de la persona a los parámetros
-                miComando.Parameters.AddWithValue("@nombre", persona.Nombre);
-                miComando.Parameters.AddWithValue("@apellidos", persona.Apellidos);
-                miComando.Parameters.AddWithValue("@fechaNac", persona.FechaNac);
-                miComando.Parameters.AddWithValue("@direccion", persona.Direccion);
-                miComando.Parameters.AddWithValue("@telefono", persona.Telefono);
-                miComando.Parameters.AddWithValue("@foto", persona.Foto);
-                miComando.Parameters.AddWithValue("@idDepartamento", persona.IdDepartamento);
+                // Asignamos los valores de la persona a la consulta
+                miComando.Parameters.AddWithValue("@Nombre", persona.Nombre);
+                miComando.Parameters.AddWithValue("@Apellidos", persona.Apellidos);
+                miComando.Parameters.AddWithValue("@Telefono", persona.Telefono);
+                miComando.Parameters.AddWithValue("@Direccion", persona.Direccion);
+                miComando.Parameters.AddWithValue("@Foto", persona.Foto);
+                miComando.Parameters.AddWithValue("@FechaNacimiento", persona.FechaNac);
+                miComando.Parameters.AddWithValue("@IDDepartamento", persona.IdDepartamento);
 
-                // Ejecutamos la consulta y obtenemos el número de filas afectadas
+                // Ejecutamos la consulta y devolvemos su resultado
                 return miComando.ExecuteNonQuery();
-
-            } // Capturamos y lanzamos la excepcion
-            catch (SqlException exSql)
+            }
+            catch (SqlException SqlEx)
             {
-                Console.WriteLine(exSql.Message);
+                Console.WriteLine(SqlEx.ToString());
                 throw;
             }
-
         }
 
+        /// <summary>
+        /// Actualiza los datos de una persona en la base de datos.
+        /// </summary>
+        /// <param name="id">ID de la persona a actualizar.</param>
+        /// <param name="persona">Objeto Persona con los nuevos datos.</param>
+        /// <returns>El número de filas afectadas por la actualización.</returns>
         public int updatePersona(int id, Persona persona)
         {
             // Creamos la conexión
@@ -206,7 +225,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -220,7 +239,7 @@ namespace Data.Repositories
                 miComando.CommandText = "UPDATE Personas SET Nombre = @nombre, Apellidos = @apellidos, FechaNacimiento = @fechaNac, Direccion = @direccion, " +
                                         "Telefono = @telefono, Foto = @foto, IDDepartamento = @idDepartamento WHERE ID = @id";
 
-                // Asignamos los valores de la persona a los parámetros
+                // Asignamos los valores de los parámetros
                 miComando.Parameters.AddWithValue("@nombre", persona.Nombre);
                 miComando.Parameters.AddWithValue("@apellidos", persona.Apellidos);
                 miComando.Parameters.AddWithValue("@fechaNac", persona.FechaNac);
@@ -228,20 +247,23 @@ namespace Data.Repositories
                 miComando.Parameters.AddWithValue("@telefono", persona.Telefono);
                 miComando.Parameters.AddWithValue("@foto", persona.Foto);
                 miComando.Parameters.AddWithValue("@idDepartamento", persona.IdDepartamento);
-                miComando.Parameters.AddWithValue("@id", id);
+                miComando.Parameters.AddWithValue("@id", id); // Añadido el parámetro @id
 
                 // Ejecutamos la consulta y obtenemos el número de filas afectadas
                 return miComando.ExecuteNonQuery();
-
             }
-            catch (Exception ex)
+            catch (SqlException exSql)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(exSql.Message);
                 throw;
             }
-
         }
 
+        /// <summary>
+        /// Elimina una persona de la base de datos por su ID.
+        /// </summary>
+        /// <param name="id">ID de la persona a eliminar.</param>
+        /// <returns>El número de filas afectadas por la eliminación.</returns>
         public int deletePersona(int id)
         {
             // Creamos la conexión
@@ -251,7 +273,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -263,52 +285,31 @@ namespace Data.Repositories
 
                 // Creamos la consulta Sql
                 miComando.CommandText = "DELETE FROM Personas WHERE ID = @id";
+
+                // Asignamos el parámetro @id
                 miComando.Parameters.AddWithValue("@id", id);
 
                 // Ejecutamos la consulta y obtenemos el número de filas afectadas
                 return miComando.ExecuteNonQuery();
-
             }
             catch (SqlException exSql)
             {
                 Console.WriteLine(exSql.Message);
                 throw;
-
             }
-
         }
 
-        // --- Wrappers para cumplir la interfaz (mapeo a los métodos existentes) ---
+        public List<Departamento> GetDepartamentos()
+        {
+            throw new NotImplementedException();
+        }
 
         public Persona GetPersona(int id)
         {
-            return getPersona(id);
-        }
-
-        public int AddPersona(Persona persona)
-        {
-            return addPersona(persona);
-        }
-
-        public int UpdatePersona(int id, Persona persona)
-        {
-            return updatePersona(id, persona);
-        }
-
-        public int DeletePersona(int id)
-        {
-            return deletePersona(id);
+            throw new NotImplementedException();
         }
 
         public List<PersonaWithNombreDepartamentoDTO> GetPersonas()
-        {
-            // Mapear a DTO con nombreDepartamento vacío; el UseCase rellena/usa DepartamentoRepository para obtener el nombre real.
-            var personas = getPersonas();
-            return personas.Select(p => new PersonaWithNombreDepartamentoDTO(p, string.Empty)).ToList();
-        }
-
-        // Mantener sin implementar si no se usan en tu flujo actual
-        public List<Departamento> GetDepartamentos()
         {
             throw new NotImplementedException();
         }
@@ -317,6 +318,20 @@ namespace Data.Repositories
         {
             throw new NotImplementedException();
         }
-    }
 
+        public int AddPersona(Persona persona)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int UpdatePersona(int id, Persona persona)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int DeletePersona(int id)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

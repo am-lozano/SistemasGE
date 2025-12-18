@@ -1,75 +1,148 @@
 ﻿using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Domain.Entities;
+using Domain.DTOs;
 
 namespace UI.Controllers
 {
+ 
     public class PersonaController : Controller
     {
         private readonly IPersonaUseCases _personaUseCases;
+        private readonly IDepartamentoUseCases _departamentoUseCases;
 
-        public PersonaController(IPersonaUseCases personaUseCases)
+
+        public PersonaController(IPersonaUseCases personaUseCases, IDepartamentoUseCases departamentoUseCases)
         {
             _personaUseCases = personaUseCases;
+            _departamentoUseCases = departamentoUseCases;
         }
 
         public IActionResult Index()
         {
-
-            return View(_personaUseCases.getPersonas());
+            try
+            {
+                return View(_personaUseCases.getPersonas());
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Ocurrió un error al cargar las personas: " + ex.Message;
+                return View("~/Views/Home/Error.cshtml");
+            }
         }
 
+   
         public IActionResult Details(int id)
         {
-            return View(_personaUseCases.getPersona(id));
+            try
+            {
+                return View(_personaUseCases.getPersona(id));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Ocurrió un error al cargar los detalles de la persona: " + ex.Message;
+                return View("~/Views/Home/Error.cshtml");
+            }
         }
 
-        public IActionResult Create()
+        public ActionResult Create()
         {
-            ViewBag.Departamentos = _personaUseCases.getDepartamentos();
-            return View();
+            try
+            {
+                return View(_personaUseCases.GetPersonaWithListadoDepartamento());
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Ocurrió un error al cargar los departamentos: " + ex.Message;
+                return View("~/Views/Home/Error.cshtml");
+            }
         }
 
         [HttpPost]
-        public IActionResult Create(Domain.Entities.Persona persona)
+        public ActionResult Create(Persona persona)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _personaUseCases.addPersona(persona);
-                return RedirectToAction("Index");
+                string mensaje;
+                int res = _personaUseCases.addPersona(persona);
+                if (res > 0)
+                {
+                    mensaje = "La persona se ha creado correctamente";
+                }
+                else
+                {
+                    mensaje = "La persona no se ha podido crear";
+                }
+                ViewBag.mensaje = mensaje;
+                return View(_departamentoUseCases.getDepartamentos());
             }
-            ViewBag.Departamentos = _personaUseCases.getDepartamentos();
-            return View(persona);
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Ocurrió un error al crear la persona: " + ex.Message;
+                return View("~/Views/Home/Error.cshtml");
+            }
         }
 
         public IActionResult Edit(int id)
         {
-            ViewBag.Departamentos = _personaUseCases.getDepartamentos();
-            return View(_personaUseCases.getPersona(id));
+            try
+            {
+                ViewBag.Departamentos = _departamentoUseCases.getDepartamentos();
+                return View(_personaUseCases.getPersona(id).persona);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Ocurrió un error al cargar la persona para editar: " + ex.Message;
+                return View("~/Views/Home/Error.cshtml");
+            }
         }
 
         [HttpPost]
-        public IActionResult Edit(int id, Domain.Entities.Persona persona)
+        public IActionResult Edit(int id, Persona persona)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _personaUseCases.updatePersona(id, persona);
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    _personaUseCases.updatePersona(id, persona);
+                    return RedirectToAction("Index");
+                }
+                ViewBag.Departamentos = _departamentoUseCases.getDepartamentos();
+                return View(persona);
             }
-            ViewBag.Departamentos = _personaUseCases.getDepartamentos();
-            return View(persona);
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Ocurrió un error al editar la persona: " + ex.Message;
+                return View("~/Views/Home/Error.cshtml");
+            }
         }
 
         public IActionResult Delete(int id)
         {
-            return View(_personaUseCases.getPersona(id));
+            try
+            {
+                return View(_personaUseCases.getPersona(id));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Ocurrió un error al cargar la persona para eliminar: " + ex.Message;
+                return View("~/Views/Home/Error.cshtml");
+            }
         }
 
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
-            _personaUseCases.deletePersona(id);
-            return RedirectToAction("Index");
+            try
+            {
+                _personaUseCases.deletePersona(id);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Ocurrió un error al eliminar la persona: " + ex.Message;
+                return View("~/Views/Home/Error.cshtml");
+            }
         }
-
     }
 }

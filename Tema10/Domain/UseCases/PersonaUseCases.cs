@@ -1,18 +1,17 @@
 ﻿using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Domain.Entities;
 using Domain.DTOs;
 
 namespace Domain.UseCases
 {
+
     public class PersonaUseCases : IPersonaUseCases
     {
         private readonly IPersonaRepository _personaRepository;
         private readonly IDepartamentoRepository _departamentoRepository;
+
 
         public PersonaUseCases(IPersonaRepository personaRepository, IDepartamentoRepository departamentoRepository)
         {
@@ -20,20 +19,23 @@ namespace Domain.UseCases
             _departamentoRepository = departamentoRepository;
         }
 
+
         public List<Persona> getListadoPersonas()
         {
             return _personaRepository.getPersonas();
         }
+
 
         public List<Departamento> getDepartamentos()
         {
             return _departamentoRepository.getDepartamentos();
         }
 
+
         public PersonaWithNombreDepartamentoDTO getPersona(int id)
         {
             // Obtenemos la persona
-            Persona persona = _personaRepository.GetPersona(id);
+            Persona persona = _personaRepository.getPersona(id);
 
             // Obtenemos el nombre del departamento
             string nombreDepartamento = _departamentoRepository.getDepartamento(persona.IdDepartamento).NombreDepartamento;
@@ -45,6 +47,7 @@ namespace Domain.UseCases
             return personaDTO;
         }
 
+        
         public List<PersonaWithNombreDepartamentoDTO> getPersonas()
         {
             // Creamos el listado a devolver
@@ -70,30 +73,43 @@ namespace Domain.UseCases
             return listadoDTOs;
         }
 
+ 
         public PersonaWithListadoDepartamentoDTO GetPersonaWithListadoDepartamento(int id)
         {
             // Creamos el DTO
-            PersonaWithListadoDepartamentoDTO personaListado = new PersonaWithListadoDepartamentoDTO(_personaRepository.GetPersona(id), _departamentoRepository.getDepartamentos());
+            PersonaWithListadoDepartamentoDTO personaListado = new PersonaWithListadoDepartamentoDTO(_personaRepository.getPersona(id), _departamentoRepository.getDepartamentos());
 
             // Devolvemos el listado
             return personaListado;
-
         }
 
+    
         public int addPersona(Persona persona)
         {
-            return _personaRepository.AddPersona(persona);
+            return _personaRepository.addPersona(persona);
         }
 
+        
         public int updatePersona(int id, Persona persona)
         {
-            return _personaRepository.UpdatePersona(id, persona);
+            return _personaRepository.updatePersona(id, persona);
         }
 
         public int deletePersona(int id)
         {
-            return _personaRepository.DeletePersona(id);
+            return _personaRepository.deletePersona(id);
         }
 
+        public PersonaWithListadoDepartamentoDTO GetPersonaWithListadoDepartamento()
+        {
+
+            Persona persona = new Persona();
+
+            // Creamos el DTO
+            PersonaWithListadoDepartamentoDTO personaListado = new PersonaWithListadoDepartamentoDTO(persona, _departamentoRepository.getDepartamentos());
+
+            // Devolvemos el listado
+            return personaListado;
+        }
     }
 }

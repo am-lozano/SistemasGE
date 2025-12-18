@@ -12,6 +12,10 @@ namespace Data.Repositories
 {
     public class DepartamentoRepository : IDepartamentoRepository
     {
+        /// <summary>
+        /// Obtiene la lista de todos los departamentos de la base de datos.
+        /// </summary>
+        /// <returns>Lista de departamentos.</returns>
         public List<Departamento> getDepartamentos()
         {
             // Creamos la conexion
@@ -21,16 +25,13 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             // Creamos el lector
             SqlDataReader miLector;
 
             // Creamos la lista de departamentos a devolver
             List<Departamento> departamentos = new List<Departamento>();
-
-            // Creamos el departamento que vamos a ir añadiendo
-            Departamento departamento = new Departamento();
 
             try
             {
@@ -51,9 +52,12 @@ namespace Data.Repositories
                 {
                     while (miLector.Read())
                     {
-                        // Obtenemos el departamento
-                        departamento.IdDepartamento = (int)miLector["ID"];
-                        departamento.NombreDepartamento = (string)miLector["Nombre"];
+                        // Creamos una nueva instancia de Departamento para cada fila
+                        Departamento departamento = new Departamento
+                        {
+                            IdDepartamento = (int)miLector["ID"],
+                            NombreDepartamento = (string)miLector["Nombre"]
+                        };
 
                         // Añadimos el departamento al listado
                         departamentos.Add(departamento);
@@ -63,9 +67,7 @@ namespace Data.Repositories
                 // Cerramos el comando
                 miLector.Close();
                 miConexion.Close();
-
             }
-
             catch (SqlException sqlEx)
             {
                 Console.WriteLine(sqlEx.Message);
@@ -74,9 +76,13 @@ namespace Data.Repositories
 
             // Devolvemos los departamentos
             return departamentos;
-
         }
 
+        /// <summary>
+        /// Obtiene un departamento por su ID.
+        /// </summary>
+        /// <param name="id">ID del departamento a buscar.</param>
+        /// <returns>Un departamento con los datos solicitados.</returns>
         public Departamento getDepartamento(int id)
         {
             // Creamos la conexion
@@ -86,7 +92,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             // Creamos el lector
             SqlDataReader miLector;
@@ -126,8 +132,6 @@ namespace Data.Repositories
                 // Cerramos el lector y la conexión
                 miLector.Close();
                 miConexion.Close();
-
-
             }
             catch (SqlException sqlEx)
             {
@@ -137,10 +141,13 @@ namespace Data.Repositories
 
             // Devolvemos el departamento
             return departamento;
-
         }
 
-
+        /// <summary>
+        /// Añade un nuevo departamento a la base de datos.
+        /// </summary>
+        /// <param name="departamento">Objeto de tipo Departamento a insertar.</param>
+        /// <returns>El número de filas afectadas en la base de datos.</returns>
         public int addDepartamento(Departamento departamento)
         {
             // Creamos la conexión
@@ -150,7 +157,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -168,16 +175,20 @@ namespace Data.Repositories
 
                 // Ejecutamos la consulta y devolvemos el resultado (filas afectadas)
                 return miComando.ExecuteNonQuery();
-
             }
             catch (SqlException sqlEx)
             {
                 Console.WriteLine(sqlEx.Message);
                 throw;
-
             }
         }
 
+        /// <summary>
+        /// Actualiza los datos de un departamento existente.
+        /// </summary>
+        /// <param name="id">ID del departamento a actualizar.</param>
+        /// <param name="departamento">Objeto Departamento con los nuevos datos.</param>
+        /// <returns>El número de filas afectadas en la base de datos.</returns>
         public int updateDepartamento(int id, Departamento departamento)
         {
             // Creamos la conexión
@@ -187,7 +198,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -206,16 +217,19 @@ namespace Data.Repositories
 
                 // Ejecutamos la consulta y devolvemos el resultado (filas afectadas)
                 return miComando.ExecuteNonQuery();
-
             }
             catch (SqlException sqlEx)
             {
                 Console.WriteLine(sqlEx.Message);
                 throw;
             }
-
         }
 
+        /// <summary>
+        /// Elimina un departamento de la base de datos por su ID.
+        /// </summary>
+        /// <param name="id">ID del departamento a eliminar.</param>
+        /// <returns>El número de filas afectadas en la base de datos.</returns>
         public int deleteDepartamento(int id)
         {
             // Creamos la conexión
@@ -225,7 +239,7 @@ namespace Data.Repositories
             SqlCommand miComando = new SqlCommand();
 
             // Obtenemos la cadena de conexión
-            miConexion.ConnectionString = "server=amlozano.database.windows.net;database=PersonasDB;uid=amlozano;pwd=abc12345_;trustServerCertificate=true;";
+            miConexion.ConnectionString = "server=josemnzano.database.windows.net;database=PersonasDB;uid=jlmanzano;pwd=abc12345_;trustServerCertificate=true;";
 
             try
             {
@@ -243,15 +257,12 @@ namespace Data.Repositories
 
                 // Ejecutamos la consulta y devolvemos el resultado (filas afectadas)
                 return miComando.ExecuteNonQuery();
-
             }
-
             catch (SqlException SqlEx)
             {
                 Console.WriteLine(SqlEx.Message);
                 throw;
             }
-
         }
 
         public object getDepartamento(object idDepartamento)
@@ -259,5 +270,4 @@ namespace Data.Repositories
             throw new NotImplementedException();
         }
     }
-
 }
