@@ -115,8 +115,7 @@
               "RelativeToolTip": "Views\\Departamento\\Index.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:08:11.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:08:11.384Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "Views\\Departamento\\Edit.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:07:50.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:07:50.838Z"
             },
             {
               "$type": "Document",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "Views\\Departamento\\Delete.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:06:58.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:06:58.343Z"
             },
             {
               "$type": "Document",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "Views\\Departamento\\Create.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:06:35.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:06:35.479Z"
             },
             {
               "$type": "Document",
@@ -167,8 +163,7 @@
               "RelativeToolTip": "Views\\Persona\\Edit.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:06:02.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:06:02.302Z"
             },
             {
               "$type": "Document",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "Views\\Persona\\Details.cshtml",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:05:36.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:05:36.054Z"
             },
             {
               "$type": "Document",
@@ -193,8 +187,7 @@
               "RelativeToolTip": "Views\\Persona\\Delete.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:04:50.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:04:50.286Z"
             },
             {
               "$type": "Document",
@@ -219,8 +212,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:02:22.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:02:22.654Z"
             },
             {
               "$type": "Document",
@@ -232,8 +224,7 @@
               "RelativeToolTip": "Views\\Persona\\Index.cshtml",
               "ViewState": "AgIAAC4AAAAAAAAAAAAkwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:02:15.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:02:15.366Z"
             },
             {
               "$type": "Document",
@@ -245,8 +236,7 @@
               "RelativeToolTip": "Views\\Departamento\\Details.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:00:10.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:00:10.767Z"
             },
             {
               "$type": "Document",
@@ -258,8 +248,7 @@
               "RelativeToolTip": "Controllers\\PersonaController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwDcAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:56:44.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:56:44.511Z"
             },
             {
               "$type": "Document",
@@ -271,8 +260,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:56:38.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:56:38.806Z"
             },
             {
               "$type": "Document",
@@ -284,8 +272,7 @@
               "RelativeToolTip": "Controllers\\DepartamentoController.cs",
               "ViewState": "AgIAAHoAAAAAAAAAAAAAwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:55:49.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:55:49.455Z"
             },
             {
               "$type": "Document",
@@ -297,8 +284,7 @@
               "RelativeToolTip": "..\\Domain\\UseCases\\PersonaUseCases.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAQwGwAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:55:13.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:55:13.671Z"
             },
             {
               "$type": "Document",
@@ -310,8 +296,7 @@
               "RelativeToolTip": "..\\Domain\\UseCases\\DepartamentoUseCases.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:54:50.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:54:50.863Z"
             },
             {
               "$type": "Document",
@@ -323,8 +308,7 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:54:27.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:54:27.367Z"
             },
             {
               "$type": "Document",
@@ -336,8 +320,7 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:54:02.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:54:02.641Z"
             },
             {
               "$type": "Document",
@@ -349,8 +332,7 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:53:27.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:53:27.614Z"
             },
             {
               "$type": "Document",
@@ -362,8 +344,7 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:53:05.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:53:05.813Z"
             },
             {
               "$type": "Document",
@@ -375,8 +356,7 @@
               "RelativeToolTip": "..\\Domain\\Entities\\Departamento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:52:51.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:52:51.663Z"
             },
             {
               "$type": "Document",
@@ -388,8 +368,7 @@
               "RelativeToolTip": "..\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:52:33.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:52:33.357Z"
             },
             {
               "$type": "Document",
@@ -401,8 +380,7 @@
               "RelativeToolTip": "..\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:52:00.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:52:00.709Z"
             },
             {
               "$type": "Document",
@@ -414,8 +392,7 @@
               "RelativeToolTip": "..\\Data\\Repositories\\PersonaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:51:33.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:51:33.526Z"
             },
             {
               "$type": "Document",
@@ -427,8 +404,7 @@
               "RelativeToolTip": "..\\Data\\Repositories\\DepartamentoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:51:20.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:51:20.674Z"
             }
           ]
         }
