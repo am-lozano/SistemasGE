@@ -5,6 +5,10 @@
     "\\Views\\Home",
     "\\Views\\Persona"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\Controllers",
+=======
+  "SelectedNode": "\\Views\\Home\\Index.cshtml",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
