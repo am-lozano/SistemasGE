@@ -1,0 +1,56 @@
+﻿@model Recuperacion.Models.GameViewModel
+
+<h2>Juego de Departamentos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Departamento</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model.DataCompleted)
+        {
+            <tr style="background-color:@p.Color">
+                <td>@p.NombrePersona @p.ApellidosPersona</td>
+                <td>
+                    <select data-id="@p.IdPersona">
+                        <option value="0">Seleccione</option>
+                        @foreach (var d in p.ListaDepartamentos)
+                        {
+                            <option value="@d.Id">@d.Nombre</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<button onclick="comprobar()">Comprobar</button>
+
+<div id="resultado"></div>
+
+<script>
+    function comprobar() {
+        const selecciones = [];
+        document.querySelectorAll("select").forEach(s => {
+            selecciones.push({
+                idPersona: parseInt(s.dataset.id),
+                idDepartamentoSeleccionado: parseInt(s.value)
+            });
+        });
+
+        fetch('/Game/Comprobar', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ selecciones })
+        })
+        .then(r => r.json())
+        .then(r => {
+            document.getElementById("resultado").innerText =
+                r.ganado ? "¡Has ganado! 🎉" : `Aciertos: ${r.aciertos}`;
+        });
+    }
+</script>

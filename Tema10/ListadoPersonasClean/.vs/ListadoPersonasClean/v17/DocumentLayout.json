@@ -1,95 +1,99 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\",
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\UI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Persona\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Departamento\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\interfaces\\persona\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Departamento\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\interfaces\\persona\\ipersonarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Departamento\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\departamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\departamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Departamento\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\departamento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\departamento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Persona\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\departamento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\departamento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Persona\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\departamento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\departamento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Persona\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\departamento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\departamento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Persona\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\persona\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\persona\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Departamento\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\persona\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\persona\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\PersonaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PersonaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\DepartamentoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\DepartamentoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\PersonaUseCases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\listadopersonasclean\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919290BF-1D4B-4966-BADE-7CCE44E53F6C}|UI.csproj|solutionrelative:controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\DepartamentoUseCases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\interfaces\\departamento\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\interfaces\\departamento\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\dtos\\personawithnombredepartamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Entities\\Departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1394F97F-9CA7-4E98-B7C5-6875FD772EF1}|..\\Domain\\Domain.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\domain\\dtos\\personawithlistadodepartamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D7562E3-B30B-43AC-85A8-56C57D1E55FE}|..\\Data\\Data.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D7562E3-B30B-43AC-85A8-56C57D1E55FE}|..\\Data\\Data.csproj|c:\\users\\am.lozano\\documents\\github\\sistemasge\\tema10\\data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\PersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\DepartamentoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -99,7 +103,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -107,102 +111,108 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "UI.csproj",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\UI.csproj",
+              "RelativeDocumentMoniker": "UI.csproj",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\UI.csproj",
+              "RelativeToolTip": "UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-07T12:29:34.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Departamento\\Index.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Index.cshtml",
               "RelativeToolTip": "Views\\Departamento\\Index.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:08:11.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:08:11.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Departamento\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Edit.cshtml",
               "RelativeToolTip": "Views\\Departamento\\Edit.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:07:50.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:07:50.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Departamento\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Delete.cshtml",
               "RelativeToolTip": "Views\\Departamento\\Delete.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:06:58.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:06:58.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departamento\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Create.cshtml",
+              "RelativeToolTip": "Views\\Departamento\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T08:06:35.479Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Departamento\\Create.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Create.cshtml",
-              "RelativeToolTip": "Views\\Departamento\\Create.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:06:35.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Persona\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Edit.cshtml",
               "RelativeToolTip": "Views\\Persona\\Edit.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:06:02.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:06:02.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Persona\\Details.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Details.cshtml",
               "RelativeToolTip": "Views\\Persona\\Details.cshtml",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:05:36.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:05:36.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Persona\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Delete.cshtml",
               "RelativeToolTip": "Views\\Persona\\Delete.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:04:50.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:04:50.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Persona\\Create.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Create.cshtml",
               "RelativeToolTip": "Views\\Persona\\Create.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -211,224 +221,207 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:02:22.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:02:22.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Persona\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Index.cshtml",
+              "RelativeToolTip": "Views\\Persona\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T08:02:15.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departamento\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Details.cshtml",
+              "RelativeToolTip": "Views\\Departamento\\Details.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T08:00:10.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "Controllers\\PersonaController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDcAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T07:56:44.511Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Persona\\Index.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Persona\\Index.cshtml",
-              "RelativeToolTip": "Views\\Persona\\Index.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:02:15.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Departamento\\Details.cshtml",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Views\\Departamento\\Details.cshtml",
-              "RelativeToolTip": "Views\\Departamento\\Details.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:00:10.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\PersonaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PersonaController.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\PersonaController.cs",
-              "RelativeToolTip": "Controllers\\PersonaController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDcAAABlAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:56:44.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:56:38.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\DepartamentoController.cs",
+              "RelativeToolTip": "Controllers\\DepartamentoController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T07:55:49.455Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PersonaUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\PersonaUseCases.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\PersonaUseCases.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\PersonaUseCases.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\PersonaUseCases.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAQwGwAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:56:38.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:55:13.671Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DepartamentoController.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\DepartamentoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DepartamentoController.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\ListadoPersonasClean\\Controllers\\DepartamentoController.cs",
-              "RelativeToolTip": "Controllers\\DepartamentoController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAwHoAAAAAAAAAAAAAAA==",
+              "Title": "DepartamentoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:55:49.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonaUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\PersonaUseCases.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\UseCases\\PersonaUseCases.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\PersonaUseCases.cs",
-              "RelativeToolTip": "..\\Domain\\UseCases\\PersonaUseCases.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAQwGwAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:55:13.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:54:50.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "DepartamentoUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\DepartamentoUseCases.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\UseCases\\DepartamentoUseCases.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\UseCases\\DepartamentoUseCases.cs",
-              "RelativeToolTip": "..\\Domain\\UseCases\\DepartamentoUseCases.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:54:50.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IPersonaUseCases.cs",
               "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
               "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:54:27.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPersonaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:54:02.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:54:27.367Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "IDepartamentoUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "IPersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:53:27.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:54:02.641Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "IDepartamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "IDepartamentoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:53:05.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:53:27.614Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Departamento.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Entities\\Departamento.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Departamento.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Entities\\Departamento.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\Departamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IDepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:52:51.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:53:05.813Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "PersonaWithNombreDepartamentoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
-              "RelativeToolTip": "..\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Entities\\Departamento.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Entities\\Departamento.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Entities\\Departamento.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\Entities\\Departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:52:33.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:52:51.663Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "PersonaWithListadoDepartamentoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
-              "RelativeToolTip": "..\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "PersonaWithNombreDepartamentoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithNombreDepartamentoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:52:00.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:52:33.357Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "PersonaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\PersonaRepository.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Repositories\\PersonaRepository.cs",
-              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\PersonaRepository.cs",
-              "RelativeToolTip": "..\\Data\\Repositories\\PersonaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Title": "PersonaWithListadoDepartamentoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Domain\\DTOs\\PersonaWithListadoDepartamentoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:51:33.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:52:00.709Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "PersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\PersonaRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\PersonaRepository.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\PersonaRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\PersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T07:51:33.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "DepartamentoRepository.cs",
               "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\DepartamentoRepository.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Repositories\\DepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\DepartamentoRepository.cs",
               "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\DepartamentoRepository.cs",
-              "RelativeToolTip": "..\\Data\\Repositories\\DepartamentoRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\am.lozano\\Documents\\GitHub\\SistemasGE\\Tema10\\Data\\Repositories\\DepartamentoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T07:51:20.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T07:51:20.674Z"
             }
           ]
         }

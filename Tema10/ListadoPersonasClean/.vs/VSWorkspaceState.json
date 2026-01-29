@@ -1,13 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
-    "\\Models",
-    "\\Properties",
-    "\\Views",
     "\\Views\\Departamento",
-    "\\Views\\Home"
+    "\\Views\\Home",
+    "\\Views\\Persona"
   ],
-  "SelectedNode": "\\obj",
+  "SelectedNode": "\\Controllers",
   "PreviewInSolutionExplorer": false
 }
